@@ -151,11 +151,11 @@
         },
         "project_info": {
             "title": "Project info",
-            "text": "This explorer is developed and designed by <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a>. Say hi on <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> for feedback, ideas, etc. Typically I use analytics tools to understand how people use websites, but since Monero is about privacy, there are no tracking services running. So you'll just have to let me know directly about improvements you'd like to see."
+            "text": "This explorer is developed and designed by <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a>. Say hi on <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> for feedback, ideas, etc. Typically I use analytics tools to understand how people use websites, but since Monero is about privacy, there are no tracking services running. So you'll just have to let me know directly about improvements you'd like to see. Find the code for this site <a href=\"https://github.com/GBKS/exploremonero\" target=\"_blank\">on GitHub</a>."
         },
         "data": {
             "title": "Data",
-            "text": "All data is loaded from <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a> which runs on the <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a>. Big thanks to all the contributors."
+            "text": "All data is loaded directly from <a href=\"https://xmr.ditatompel.com/remote-nodes\" target=\"_blank\">public Monero nodes</a>. Thank you to the community for providing this."
         },
         "contributors": {
             "title": "Localization contributors"
