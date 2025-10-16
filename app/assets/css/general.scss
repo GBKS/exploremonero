@@ -1,0 +1,58 @@
+
+@use '@/assets/css/variables.scss' as variables;
+@use '@/assets/css/animations.scss' as animations;
+
+html {
+  background-color: var(--backHex);
+  transition: background-color 500ms animations.$ease;
+}
+
+body {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .pages {
+    position: relative;
+    padding-bottom: 40px;
+  }
+}
+
+.page-transition-enter-active {
+  // transition: all 400ms animations.$easeOutCubic;
+}
+
+.page-transition-enter {
+  // opacity: 0;
+  // transform: translateY(100px);
+}
+
+.page-transition-enter-to {
+  // opacity: 1;
+  // transform: translateY(0px);
+}
+
+.page-transition-leave-active {
+  transition: all 400ms animations.$easeOutCubic;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform-origin: center 20%;
+  transition-delay: 25ms;
+}
+
+.page-transition-leave {
+  opacity: 1;
+  // transform: scale(1);
+}
+
+.page-transition-leave-to {
+  opacity: 0;
+  // transform: scale(0.9);
+}

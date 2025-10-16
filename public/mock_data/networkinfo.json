@@ -1,0 +1,30 @@
+{
+    "data":
+    {
+        "alt_blocks_count": 143,
+        "block_size_limit": 600000,
+        "block_size_median": 64917,
+        "cumulative_difficulty": 16056055738024753,
+        "current": true,
+        "current_hf_version": 7,
+        "difficulty": 48562365435,
+        "fee_per_kb": 175070000,
+        "grey_peerlist_size": 0,
+        "hash_rate": 404686378,
+        "height": 1599795,
+        "incoming_connections_count": 59,
+        "outgoing_connections_count": 346,
+        "stagenet": false,
+        "start_time": 1528057811,
+        "status": true,
+        "target": 120,
+        "target_height": 1599691,
+        "testnet": false,
+        "top_block_hash": "4d16cb329294036bd9a6f3fac7b88a5e7678786634c4142df6a73b59f372bdd6",
+        "tx_count": 3024978,
+        "tx_pool_size": 10,
+        "tx_pool_size_kbytes": 136719,
+        "white_peerlist_size": 1000
+    },
+    "status": "success"
+}

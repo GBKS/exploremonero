@@ -1,0 +1,72 @@
+
+$red: #EC3F4E;
+$red-dark: #C7000F;
+$dark-grey: #2d2d2d;
+
+// For media queries.
+$small_width:               640px;
+$large_width:               1024px;
+// $huge_width:               1440px;
+$huge_width:               1281px;
+
+// $fonts: font-family: "Helvetica Neue", Helvetica, sans-serif;
+$fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+$poppins: 'Poppins', sans-serif;
+$libreBaskerville: 'Libre Baskerville', serif;
+
+$themeChangeDuration: 250ms;
+
+:root {
+	--back: 13, 13, 15;
+	--front: 255, 255, 255;
+
+	--back-r: 13;
+	--back-g: 13;
+	--back-b: 15;
+
+	--front-r: 255;
+	--front-g: 255;
+	--front-b: 255;
+
+	--backHex: #0D0D0F;
+	--frontHex: #ffffff;
+
+	--moneroOrange: #FA6800;
+
+	--red: #EB1B0A; // 235, 27, 10
+	--redRGB: 235, 27, 10;
+	--orange: #FF9500; // 255, 149, 0
+	--orangeRGB: 255, 149, 0;
+	--yellow: #FFCC00;
+	--yellowRGB: 255, 204, 0;
+	--blue: #3380FF;
+	--blueRGB: 51, 128, 255;
+	--lightBlue: #5AC8FA; // 90, 200, 250
+	--lightBlueRGB: 90, 200, 250;
+	--green: #03B96C;
+	--greenRGB: 3, 185, 108;
+	--purple: #5856D6; // 88, 86, 214
+	--purpleRGB: 88, 86, 214;
+	--pink: #FF2D55; // 255, 45, 85
+	--pinkRGB: 255, 45, 85;
+}
+
+.theme--light {
+	--back: 251, 251, 251;
+	--front: 0, 0, 0;
+
+	--back-r: 251;
+	--back-g: 251;
+	--back-b: 251;
+
+	--front-r: 0;
+	--front-g: 0;
+	--front-b: 0;
+
+	--backHex: #fbfbfb;
+	--frontHex: #000000;
+
+	// --front: 0, 255, 0;
+	// --frontHex: #00FF00;
+}

@@ -1,0 +1,23 @@
+{
+  "data": {
+    "address": "42f18fc61586554095b0799b5c4b6f00cdeb26a93b20540d366932c6001617b75db35109fbba7d5f275fef4b9c49e0cc1c84b219ec6ff652fda54f89f7f63c88",
+    "outputs": [
+      {
+        "amount": 34980000000000,
+        "match": true,
+        "output_idx": 0,
+        "output_pubkey": "35d7200229e725c2bce0da3a2f20ef0720d242ecf88bfcb71eff2025c2501fdb"
+      },
+      {
+        "amount": 0,
+        "match": false,
+        "output_idx": 1,
+        "output_pubkey": "44efccab9f9b42e83c12da7988785d6c4eb3ec6e7aa2ae1234e2f0f7cb9ed6dd"
+      }
+    ],
+    "tx_hash": "17049bc5f2d9fbca1ce8dae443bbbbed2fc02f1ee003ffdd0571996905faa831",
+    "tx_prove": false,
+    "viewkey": "f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501"
+  },
+  "status": "success"
+}

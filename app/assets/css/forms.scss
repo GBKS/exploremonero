@@ -1,0 +1,82 @@
+@use '@/assets/css/mixins.scss' as mixins;
+
+form,
+.form {
+    label {
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+        color: black;
+    }
+
+    input {
+        &[type=text],
+        &[type=email],
+        &[type=password] {
+            border-left-width: 0;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-bottom-width: 0;
+            // border-bottom: 1px solid #dedede;
+            width: 100%;
+            font-size: 20px;
+            line-height: 36px;
+            border-radius: 0;
+            text-indent: 0;
+            padding: 0 0;
+
+            &::placeholder {
+                color: #bbbbbb;
+            }
+
+            &:focus {
+                color: var(--blue);
+                // border-color: var(--blue);
+            }
+        }
+
+        &[type=submit] {
+            margin-top: 15px;
+            display: inline-block;
+            border-width: 0;
+        }
+    }
+
+    label + select {
+        margin-top: 5px;
+    }
+
+    label + input {
+        margin-top: 0px;
+    }
+
+    input + label,
+    select + label,
+    p.error + label {
+        margin-top: 20px;
+    }
+
+    p.error {
+        margin-top: 5px;
+        color: var(--lightBlue);
+    }
+
+    @include mixins.media-query(small) {
+        label {
+            font-size: 16px;
+        }
+
+        input {
+            &[type=text],
+            &[type=email],
+            &[type=password] {
+                font-size: 24px;
+                line-height: 44px;
+            }
+        }
+    }
+
+    @include mixins.media-query(medium-up) {
+        
+    }
+}

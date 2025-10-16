@@ -1,0 +1,12 @@
+{
+    "data":
+    {
+        "api": 65536,
+        "blockchain_height": 1599796,
+        "git_branch_name": "master",
+        "last_git_commit_date": "2018-05-13",
+        "last_git_commit_hash": "35db6a0",
+        "monero_version_full": "0.12.0.0-master-5710edf"
+    },
+    "status": "success"
+}
